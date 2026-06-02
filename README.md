@@ -4,7 +4,7 @@
 ### 데이터베이스 정리
 
 1. 흐름 
-    - DB Modeling -> Relation Modeling -> SQL -> 정규화 -> 저장/Index -> Transaction -> 동시성제러 -> 회복
+    - DB Model -> Relational Model -> SQL -> 정규화 -> 저장/Index -> Transaction -> 동시성제러 -> 회복
 
     순으로 이뤄져있다.
 
