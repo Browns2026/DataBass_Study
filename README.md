@@ -784,4 +784,15 @@ REDO vs UNDO
     - 작성 순서: SELECT → FROM → WHERE → GROUP BY → HAVING → ORDER BY
     \n 실행 순서: FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY
     \n
-    논리적 처리 순서
+    이를 논리적 처리 순서 라고 한다.
+
+2. 참조 무결성
+    1. 기본키는 NULL 불가 - 개체 무결성
+    2. 속성 값은 도메인 안에 존재한다 - 도메인 무결성
+    3. 외래키는 참조 대상에 존재한다 - 참조 무결성
+    4. 모든 결정자는 후보키다 - BCNF
+    = 1 - 3번까지는 무결성 제약조건 이다.
+
+
+
+    
